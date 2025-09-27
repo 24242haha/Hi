@@ -1,0 +1,6 @@
+Label
+Node
+Control
+CollisionShape2D
+Area2D
+TileMap

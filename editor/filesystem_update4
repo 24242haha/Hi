@@ -1,0 +1,9 @@
+res://world 1.tscn
+res://CollisionShape2D.gd
+res://player.tscn
+res://tilesets.tres
+res://player.gd
+res://StartGame.tscn
+res://StartGame.gd
+res://world2.tscn
+res://gameover.tscn
