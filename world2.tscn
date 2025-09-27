@@ -1,0 +1,164 @@
+[gd_scene load_steps=31 format=3 uid="uid://7vajlihrxwu7"]
+
+[ext_resource type="TileSet" uid="uid://cxeakkw7edl2y" path="res://tilesets.tres" id="1"]
+[ext_resource type="Texture2D" uid="uid://b0838eqxxlswm" path="res://peaceful-pixel-sky-stockcake.jpg" id="2_wuyn8"]
+[ext_resource type="Texture2D" uid="uid://blwffxgq48man" path="res://.1.png" id="3_is03e"]
+[ext_resource type="Texture2D" uid="uid://yqda4l275ppk" path="res://.2.png" id="4_1x1nw"]
+[ext_resource type="Texture2D" uid="uid://dkj2l4shj5yrn" path="res://.3.png" id="5_b22el"]
+[ext_resource type="Texture2D" uid="uid://51hfaiwxfebc" path="res://.4.png" id="6_qbvih"]
+[ext_resource type="Texture2D" uid="uid://c1dpcu38j28px" path="res://.5.png" id="7_m3i4r"]
+[ext_resource type="Texture2D" uid="uid://dxn6noyavr5tv" path="res://.6.png" id="8_i44vq"]
+[ext_resource type="Texture2D" uid="uid://b4dxcnww76kpy" path="res://.7.png" id="9_nxl23"]
+[ext_resource type="Texture2D" uid="uid://bu4qbxt1xewkf" path="res://111.png" id="10_obnid"]
+[ext_resource type="Texture2D" uid="uid://c7apm7wnut3gh" path="res://222.png" id="11_e46cv"]
+[ext_resource type="Texture2D" uid="uid://b3aujjogqsjwx" path="res://333.png" id="12_5w5yb"]
+[ext_resource type="Texture2D" uid="uid://brd5rcisx6et5" path="res://01.png" id="13_8rva1"]
+[ext_resource type="Texture2D" uid="uid://cxrt0k2otbyu1" path="res://02.png" id="14_mrlao"]
+[ext_resource type="Texture2D" uid="uid://cw55nxyh5tf6r" path="res://03.png" id="15_q0mno"]
+[ext_resource type="Texture2D" uid="uid://481dh8njnw6e" path="res://04.png" id="16_8xah1"]
+[ext_resource type="Texture2D" uid="uid://cqpgrm6mr5ekx" path="res://05.png" id="17_6rhgk"]
+[ext_resource type="Texture2D" uid="uid://df742omcaertn" path="res://06.png" id="18_fcpgx"]
+[ext_resource type="Texture2D" uid="uid://bvvsjs8jm1qma" path="res://07.png" id="19_lmx4r"]
+[ext_resource type="Texture2D" uid="uid://c3ykgdebg54eh" path="res://08.png" id="20_d5rlc"]
+[ext_resource type="Texture2D" uid="uid://byy0qevow36f0" path="res://09.png" id="21_pirfe"]
+[ext_resource type="Texture2D" uid="uid://dcfssl3ifefs0" path="res://010.png" id="22_f2dhm"]
+[ext_resource type="Texture2D" uid="uid://cs5kma6mvckgp" path="res://011.png" id="23_t0og2"]
+[ext_resource type="Texture2D" uid="uid://cc47rdjcn3nd0" path="res://012.png" id="24_imb2y"]
+[ext_resource type="Texture2D" uid="uid://ceorbe6ve47x6" path="res://013.png" id="25_5l2cp"]
+[ext_resource type="Texture2D" uid="uid://cibmjlrhxr0hs" path="res://014.png" id="26_1ipmq"]
+[ext_resource type="Texture2D" uid="uid://yh83shs20yni" path="res://015.png" id="27_act6n"]
+[ext_resource type="Texture2D" uid="uid://neh4vhas1e6k" path="res://016.png" id="28_ppm6x"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_q5sgx"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_is03e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1x1nw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_b22el")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qbvih")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_m3i4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_i44vq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nxl23")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_obnid")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_e46cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_5w5yb")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("13_8rva1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_mrlao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_q0mno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8xah1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_6rhgk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_fcpgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_lmx4r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_d5rlc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_pirfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_f2dhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_t0og2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_imb2y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_5l2cp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_1ipmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_act6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ppm6x")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_4rdco"]
+radius = 14.837524
+height = 54.43158
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TileMap2" type="TileMap" parent="."]
+position = Vector2(-33, 149)
+tile_set = ExtResource("1")
+rendering_quadrant_size = 18
+format = 2
+layer_0/tile_data = PackedInt32Array(1310751, 0, 131072, 1310754, 0, 131072, 1310757, 0, 131072, 1310760, 0, 131072, 1310763, 0, 131072, 1310766, 0, 131072, 1310748, 0, 131072, 1310769, 0, 131072)
+
+[node name="PeacefulPixelSkyStockcake" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(667, 297)
+scale = Vector2(2.0625, 1.8281249)
+texture = ExtResource("2_wuyn8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(557.0527, 375.66174)
+scale = Vector2(5.628292, 5.291359)
+sprite_frames = SubResource("SpriteFrames_q5sgx")
+animation = &"idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(555.4089, 376.82407)
+scale = Vector2(3.4565654, 3.128464)
+shape = SubResource("CapsuleShape2D_4rdco")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 336.0
+offset_top = 160.00002
+offset_right = 522.0
+offset_bottom = 183.00002
+scale = Vector2(3.0672603, 4.7322564)
+text = "CONGRATS,YOU WON!!!!"
